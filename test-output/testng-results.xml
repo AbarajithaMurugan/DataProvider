@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="93377" started-at="2020-12-17T10:53:54Z" finished-at="2020-12-17T10:55:27Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="93377" started-at="2020-12-17T10:53:54Z" finished-at="2020-12-17T10:55:27Z">
+      <class name="OnlineShop">
+        <test-method status="PASS" signature="launch()[pri:0, instance:OnlineShop@56a6d5a6]" name="launch" is-config="true" duration-ms="7993" started-at="2020-12-17T10:53:54Z" finished-at="2020-12-17T10:54:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method status="PASS" signature="DataProvider(java.lang.String, java.lang.String)[pri:0, instance:OnlineShop@56a6d5a6]" name="DataProvider" duration-ms="21527" started-at="2020-12-17T10:54:02Z" data-provider="products" finished-at="2020-12-17T10:54:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[washing machine]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[//span[@class='a-size-medium a-color-base a-text-normal'][1]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DataProvider -->
+        <test-method status="PASS" signature="DataProvider(java.lang.String, java.lang.String)[pri:0, instance:OnlineShop@56a6d5a6]" name="DataProvider" duration-ms="18081" started-at="2020-12-17T10:54:23Z" data-provider="products" finished-at="2020-12-17T10:54:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[refridgerator]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[//span[@class='a-size-medium a-color-base a-text-normal'][1]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DataProvider -->
+        <test-method status="PASS" signature="DataProvider(java.lang.String, java.lang.String)[pri:0, instance:OnlineShop@56a6d5a6]" name="DataProvider" duration-ms="28753" started-at="2020-12-17T10:54:41Z" data-provider="products" finished-at="2020-12-17T10:55:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[iphone 12]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[//span[@class='a-size-medium a-color-base a-text-normal'][1]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DataProvider -->
+        <test-method status="PASS" signature="DataProvider(java.lang.String, java.lang.String)[pri:0, instance:OnlineShop@56a6d5a6]" name="DataProvider" duration-ms="16959" started-at="2020-12-17T10:55:10Z" data-provider="products" finished-at="2020-12-17T10:55:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[dell laptop]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[//span[@class='a-size-medium a-color-base a-text-normal'][1]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DataProvider -->
+      </class> <!-- OnlineShop -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
