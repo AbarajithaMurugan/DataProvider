@@ -58,11 +58,11 @@ public class OnlineShop {
 
 }
  
-//@AfterClass
-//public void ovr() {
-	//driver.quit();
+@AfterClass
+public void ovr() {
+	driver.quit();
 
-//}
+}
 }
 
 
