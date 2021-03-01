@@ -15,6 +15,7 @@ public class OnlineShop {
   @BeforeClass
   
 	  public void launch() {
+	  System.out.println("abara");
 			
 			System.setProperty("webdriver.chrome.driver", "C:\\Users\\Navin Vishal M\\Downloads\\Abara's\\eclipse\\configuration\\DataProvider\\driver\\chromedriver.exe");
 		driver=new ChromeDriver();
